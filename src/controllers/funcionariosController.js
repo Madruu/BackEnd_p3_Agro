@@ -27,7 +27,7 @@ const loginFuncionario = async (req, res) =>
             return res.status(400).json({ message: 'Funcionário não encontrado' });
         }
 
-        /*// Verifique se a senha está correta
+        /* Verifique se a senha está correta
         const senhaCorreta = await funcionario.verificarSenha(senha);
         if (!senhaCorreta) {
             return res.status(400).json({ message: 'Senha incorreta' });
