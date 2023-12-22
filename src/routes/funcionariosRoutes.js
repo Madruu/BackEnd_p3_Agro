@@ -1,4 +1,4 @@
-import express from "express"
+import express from "express";
 import funcionariosController from "../controllers/funcionariosController.js";
 
 const router = express.Router();
