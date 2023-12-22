@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 mongoose.set('strictQuery', false);
 dotenv.config();
 mongoose.connect(process.env.MONGO_URL);
